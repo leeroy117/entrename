@@ -28,18 +28,18 @@ services:
   #   networks:
   #     - laravel
 
-  db:
-    image: mariadb:latest
-    container_name: laravel_db
-    environment:
-      MARIADB_ROOT_PASSWORD: entrename
-      MARIADB_DATABASE: entrename
-      MARIADB_USER: prueba
-      MARIADB_PASSWORD: entrename
-    ports:
-      - "3306:3306"
-    networks:
-      - laravel
+  # db:
+  #   image: mariadb:latest
+  #   container_name: laravel_db
+  #   environment:
+  #     MARIADB_ROOT_PASSWORD: entrename
+  #     MARIADB_DATABASE: entrename
+  #     MARIADB_USER: prueba
+  #     MARIADB_PASSWORD: entrename
+  #   ports:
+  #     - "3306:3306"
+  #   networks:
+  #     - laravel
 
 networks:
   laravel:
